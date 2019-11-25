@@ -29,6 +29,9 @@
 <p><img src="/images/image-20191125210441293.png" alt="image-20191125210441293"></p>
 <p>可以提高模型推理速度。<br>$$<br>ReLU6 = min(max(x,0),6)<br>$$</p>
 ]]></content>
+      <tags>
+        <tag>task</tag>
+      </tags>
   </entry>
   <entry>
     <title>深度学习之信息熵</title>

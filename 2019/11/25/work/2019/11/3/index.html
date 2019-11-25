@@ -50,7 +50,7 @@
 </script>
 
   <meta name="description" content="1.背景在嵌入式和移动设备上实现高精度的实时人脸识别">
-<meta name="keywords" content="智能算法,人工智能">
+<meta name="keywords" content="task">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《基于轻量级网络的实时人脸识别算法研究》的总结">
 <meta property="og:url" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;2019&#x2F;11&#x2F;25&#x2F;work&#x2F;2019&#x2F;11&#x2F;3&#x2F;index.html">
@@ -66,7 +66,7 @@
 <meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;image-20191125205456534.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;image-20191125210128252.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;image-20191125210441293.png">
-<meta property="og:updated_time" content="2019-11-25T13:15:57.541Z">
+<meta property="og:updated_time" content="2019-11-25T13:22:50.349Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;image-20191125203746283.png">
 
@@ -272,7 +272,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2019-11-25 21:11:57 / Modified: 21:15:57" itemprop="dateCreated datePublished" datetime="2019-11-25T21:11:57+08:00">2019-11-25</time>
+              <time title="Created: 2019-11-25 21:11:57 / Modified: 21:22:50" itemprop="dateCreated datePublished" datetime="2019-11-25T21:11:57+08:00">2019-11-25</time>
             </span>
 
           
@@ -319,6 +319,9 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/task/" rel="tag"># task</a>
+          </div>
 
         
 
@@ -388,7 +391,7 @@
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -482,6 +485,56 @@
   
 
   
+      
+<script type="text/x-mathjax-config">
+    MathJax.Ajax.config.path['mhchem'] = '//cdn.jsdelivr.net/npm/mathjax-mhchem@3';
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        extensions: ['[mhchem]/mhchem.js'],
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
 
   
 
