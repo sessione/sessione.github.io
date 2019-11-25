@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>task</title>
+    <url>/2019/11/24/work/2019/11/2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>task</title>
+    <url>/2019/11/24/work/2019/11/1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>The-first-day</title>
+    <url>/2019/11/23/The-first-day/</url>
+    <content><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><a id="more"></a>
+
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>你好   </p>
+<p>你好吗</p>
+<p>你好吗</p>
+<p><del>nihaoma</del></p>
+<p><u> zhendema</u></p>
+<p>asdf[^1]</p>
+<ol>
+<li>diyi<ul>
+<li>nihao</li>
+<li>nihao<ul>
+<li>zhesh</li>
+<li>zhege</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>dier</li>
+<li>disan</li>
+</ol>
+<blockquote>
+<p>qunkuanyinyong</p>
+<p>zhesd</p>
+</blockquote>
+<blockquote>
+<p>nihao</p>
+<blockquote>
+<p>zhege</p>
+<blockquote>
+<p>sdfas</p>
+<blockquote>
+<p>sdfasd</p>
+<blockquote>
+<p>sffeasd</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>asd</p>
+<ul>
+<li>zheg</li>
+<li><ul>
+<li>nid</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li><p>zheg shi</p>
+<blockquote>
+<p>sdad</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    alert(<span class="string">'RUNOOB'</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.baidu.com" target="_blank" rel="noopener">百度一下</a></p>
+<p><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p>
+<p>链接也可以用变量来代替，文档末尾附带变量地址</p>
+<p>这个链接用1作为网址变量<a href="http://www.google.com" target="_blank" rel="noopener">goole</a></p>
+<p>这个链接用百度作为地址变量<a href="https://www.baidu.com/" target="_blank" rel="noopener">百度</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/23/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
