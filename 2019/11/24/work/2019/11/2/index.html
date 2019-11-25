@@ -59,7 +59,10 @@
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;xinxishanggongshi.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;jiaochashanggongshi.png">
-<meta property="og:updated_time" content="2019-11-25T01:54:25.287Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;xiangduishagnjisuangognshi.jpg">
+<meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;1.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;2.png">
+<meta property="og:updated_time" content="2019-11-25T02:19:15.508Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;sessione.github.io&#x2F;images&#x2F;xinxishanggongshi.png">
 
@@ -271,7 +274,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-25 09:54:25" itemprop="dateModified" datetime="2019-11-25T09:54:25+08:00">2019-11-25</time>
+                <time title="Modified: 2019-11-25 10:19:15" itemprop="dateModified" datetime="2019-11-25T10:19:15+08:00">2019-11-25</time>
               </span>
 
           
@@ -292,8 +295,15 @@
 <p><img src="/images/xinxishanggongshi.png" alt=""></p>
 <h2 id="2-交叉熵"><a href="#2-交叉熵" class="headerlink" title="2. 交叉熵"></a>2. 交叉熵</h2><h3 id="2-1-定义"><a href="#2-1-定义" class="headerlink" title="2.1 定义"></a>2.1 定义</h3><p>​    交叉熵(cross entropy)是用于表征两个变量概率分布P, Q（假设P表示真实分布, Q为模型预测的分布） 的差异性 。交叉熵越大 , 两个变量差异程度越大。  </p>
 <h3 id="2-2交叉熵公式"><a href="#2-2交叉熵公式" class="headerlink" title="2.2交叉熵公式"></a>2.2交叉熵公式</h3><p><img src="/images/jiaochashanggongshi.png" alt=""></p>
-<h2 id="3-相对熵（relative-entropy）"><a href="#3-相对熵（relative-entropy）" class="headerlink" title="3. 相对熵（relative entropy）"></a>3. 相对熵（relative entropy）</h2><h3 id="3-1定义"><a href="#3-1定义" class="headerlink" title="3.1定义"></a>3.1定义</h3><p>也称为KL散度（Kulllback-Leibler divergence, 简称KLD）、信息散度（information divergence）、信息增益（information gain）。</p>
-
+<h2 id="3-相对熵（relative-entropy）"><a href="#3-相对熵（relative-entropy）" class="headerlink" title="3. 相对熵（relative entropy）"></a>3. 相对熵（relative entropy）</h2><h3 id="3-1定义"><a href="#3-1定义" class="headerlink" title="3.1定义"></a>3.1定义</h3><p>也称为KL散度（Kulllback-Leibler divergence, 简称KLD）、信息散度（information divergence）、信息增益（information gain）。定义为：是交叉熵与信息熵的差值。表示用分布Q模拟真实分布P所需的额外信息。</p>
+<h3 id="3-2计算公式"><a href="#3-2计算公式" class="headerlink" title="3.2计算公式"></a>3.2计算公式</h3><p><img src="/images/xiangduishagnjisuangognshi.jpg" alt=""></p>
+<h3 id="3-3相对熵举例"><a href="#3-3相对熵举例" class="headerlink" title="3.3相对熵举例"></a>3.3相对熵举例</h3><p>例题：假设某字符发射器随机发出0和1两种字符。且其真实发出概率分布为A。现在有两人的观察概率分布B与C。各个分布如下：</p>
+<p>A(0)=1/2,    A(1)=1/2<br>B(0)=1/4， B(1)=3/4<br>C(0)=1/8， C(1)=7/8</p>
+<p>则B和C哪个更接近实际分布A？</p>
+<p>求解过程：</p>
+<p><img src="/images/1.png" alt=""></p>
+<p><img src="/images/2.png" alt=""></p>
+<h3 id="3-4相对熵的性质"><a href="#3-4相对熵的性质" class="headerlink" title="3.4相对熵的性质"></a>3.4相对熵的性质</h3>
     </div>
 
     
@@ -352,7 +362,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-信息熵"><span class="nav-number">1.</span> <span class="nav-text">1. 信息熵</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-交叉熵"><span class="nav-number">2.</span> <span class="nav-text">2. 交叉熵</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-定义"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2交叉熵公式"><span class="nav-number">2.2.</span> <span class="nav-text">2.2交叉熵公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-相对熵（relative-entropy）"><span class="nav-number">3.</span> <span class="nav-text">3. 相对熵（relative entropy）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1定义"><span class="nav-number">3.1.</span> <span class="nav-text">3.1定义</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-信息熵"><span class="nav-number">1.</span> <span class="nav-text">1. 信息熵</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-交叉熵"><span class="nav-number">2.</span> <span class="nav-text">2. 交叉熵</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-定义"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2交叉熵公式"><span class="nav-number">2.2.</span> <span class="nav-text">2.2交叉熵公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-相对熵（relative-entropy）"><span class="nav-number">3.</span> <span class="nav-text">3. 相对熵（relative entropy）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1定义"><span class="nav-number">3.1.</span> <span class="nav-text">3.1定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2计算公式"><span class="nav-number">3.2.</span> <span class="nav-text">3.2计算公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3相对熵举例"><span class="nav-number">3.3.</span> <span class="nav-text">3.3相对熵举例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4相对熵的性质"><span class="nav-number">3.4.</span> <span class="nav-text">3.4相对熵的性质</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
