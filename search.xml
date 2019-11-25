@@ -7,9 +7,10 @@
 
 <p>​    信息熵：要考虑信源所有可能发生情况的不确定性。若信源符号有n种取值：U1 ，…  ,Ui, … ,Un,对应概率为p1, … ,pi, … ,pn,且各种出现彼此独立。此时信源的平均不确定性应当为单个符号不确定性的统计平均值（E），成称为信息熵，即</p>
 <p>​    </p>
-<p><img src="D:%5Cblog%5Csource%5Cimages%5Cxinxishanggongshi.png" alt=""></p>
-<h2 id="2-交叉熵"><a href="#2-交叉熵" class="headerlink" title="2. 交叉熵"></a>2. 交叉熵</h2><h3 id="2-1-定义"><a href="#2-1-定义" class="headerlink" title="2.1 定义"></a>2.1 定义</h3><p>​    交叉熵是用于表征两个变量概率分布P, Q（假设P表示真实分布, Q为模型预测的分布） 的差异性 。交叉熵越大 , 两个变量差异程度越大。  </p>
-<h3 id="2-2交叉熵公式"><a href="#2-2交叉熵公式" class="headerlink" title="2.2交叉熵公式"></a>2.2交叉熵公式</h3><p><img src="D:%5Cblog%5Csource%5Cimages%5Cjiaochashanggongshi.png" alt=""></p>
+<p><img src="/images/xinxishanggongshi.png" alt=""></p>
+<h2 id="2-交叉熵"><a href="#2-交叉熵" class="headerlink" title="2. 交叉熵"></a>2. 交叉熵</h2><h3 id="2-1-定义"><a href="#2-1-定义" class="headerlink" title="2.1 定义"></a>2.1 定义</h3><p>​    交叉熵(cross entropy)是用于表征两个变量概率分布P, Q（假设P表示真实分布, Q为模型预测的分布） 的差异性 。交叉熵越大 , 两个变量差异程度越大。  </p>
+<h3 id="2-2交叉熵公式"><a href="#2-2交叉熵公式" class="headerlink" title="2.2交叉熵公式"></a>2.2交叉熵公式</h3><p><img src="/images/jiaochashanggongshi.png" alt=""></p>
+<h2 id="3-相对熵（relative-entropy）"><a href="#3-相对熵（relative-entropy）" class="headerlink" title="3. 相对熵（relative entropy）"></a>3. 相对熵（relative entropy）</h2><h3 id="3-1定义"><a href="#3-1定义" class="headerlink" title="3.1定义"></a>3.1定义</h3><p>也称为KL散度（Kulllback-Leibler divergence, 简称KLD）、信息散度（information divergence）、信息增益（information gain）。</p>
 ]]></content>
       <tags>
         <tag>深度学习</tag>
