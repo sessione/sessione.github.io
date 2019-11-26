@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SESSION</title>
+  
+  <subtitle>sessione的空间</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://sessione.github.io/"/>
+  <updated>2019-11-25T13:22:50.349Z</updated>
+  <id>https://sessione.github.io/</id>
+  
+  <author>
+    <name>session</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《基于轻量级网络的实时人脸识别算法研究》的总结</title>
+    <link href="https://sessione.github.io/2019/11/25/work/2019/11/3/"/>
+    <id>https://sessione.github.io/2019/11/25/work/2019/11/3/</id>
+    <published>2019-11-25T13:11:57.000Z</published>
+    <updated>2019-11-25T13:22:50.349Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-背景&quot;&gt;&lt;a href=&quot;#1-背景&quot; class=&quot;headerlink&quot; title=&quot;1.背景&quot;&gt;&lt;/a&gt;1.背景&lt;/h2&gt;&lt;p&gt;在嵌入式和移动设备上实现高精度的实时人脸识别
+    
+    </summary>
+    
+    
+    
+      <category term="task" scheme="https://sessione.github.io/tags/task/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深度学习之信息熵</title>
+    <link href="https://sessione.github.io/2019/11/24/work/2019/11/2/"/>
+    <id>https://sessione.github.io/2019/11/24/work/2019/11/2/</id>
+    <published>2019-11-24T08:18:57.000Z</published>
+    <updated>2019-11-25T02:19:15.508Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-信息熵&quot;&gt;&lt;a href=&quot;#1-信息熵&quot; class=&quot;headerlink&quot; title=&quot;1. 信息熵&quot;&gt;&lt;/a&gt;1. 信息熵&lt;/h2&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="深度学习" scheme="https://sessione.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>task</title>
+    <link href="https://sessione.github.io/2019/11/24/work/2019/11/1/"/>
+    <id>https://sessione.github.io/2019/11/24/work/2019/11/1/</id>
+    <published>2019-11-24T08:18:44.000Z</published>
+    <updated>2019-11-24T08:18:46.100Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The-first-day</title>
+    <link href="https://sessione.github.io/2019/11/23/The-first-day/"/>
+    <id>https://sessione.github.io/2019/11/23/The-first-day/</id>
+    <published>2019-11-23T12:14:41.472Z</published>
+    <updated>2019-11-24T08:12:25.781Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World!&quot;&gt;&lt;/a&gt;Hello World!&lt;/h1&gt;&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sessione.github.io/2019/11/23/hello-world/"/>
+    <id>https://sessione.github.io/2019/11/23/hello-world/</id>
+    <published>2019-11-23T11:59:54.644Z</published>
+    <updated>2019-11-23T11:59:54.644Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
