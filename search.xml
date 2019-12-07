@@ -3,14 +3,16 @@
   <entry>
     <title>使用Typora添加数学公式</title>
     <url>/2019/12/07/work/2019/12/1/</url>
-    <content><![CDATA[<h1 id="使用Typora添加数学公式"><a href="#使用Typora添加数学公式" class="headerlink" title="使用Typora添加数学公式"></a>使用Typora添加数学公式</h1><p>参考【<a href="https://blog.csdn.net/mingzhuo_126/article/details/82722455" target="_blank" rel="noopener">姚明明</a>】【<a href="https://me.csdn.net/Ernest_YN" target="_blank" rel="noopener">X7treme</a>】【<a href="https://www.cnblogs.com/144823836yj/p/10263070.html" target="_blank" rel="noopener">画鱼</a>】</p>
+    <content><![CDATA[<p>参考【<a href="https://blog.csdn.net/mingzhuo_126/article/details/82722455" target="_blank" rel="noopener">姚明明</a>】【<a href="https://me.csdn.net/Ernest_YN" target="_blank" rel="noopener">X7treme</a>】【<a href="https://www.cnblogs.com/144823836yj/p/10263070.html" target="_blank" rel="noopener">画鱼</a>】</p>
 <h2 id="1-开启行内公式模块，默认是关闭的。"><a href="#1-开启行内公式模块，默认是关闭的。" class="headerlink" title="1.开启行内公式模块，默认是关闭的。"></a>1.开启行内公式模块，默认是关闭的。</h2><p>文件–&gt;偏好设置–&gt;Markdown,勾选内联公式，重启typora。</p>
+<a id="more"></a>
+
 <h2 id="2-打开Typora选择数学模块"><a href="#2-打开Typora选择数学模块" class="headerlink" title="2. 打开Typora选择数学模块"></a>2. 打开Typora选择数学模块</h2><h3 id="1-数学模块"><a href="#1-数学模块" class="headerlink" title="1.数学模块"></a>1.数学模块</h3><ol>
 <li>右击，点击“段落”，选择公式块</li>
 <li>快捷键 Ctrl+Shift+m</li>
 <li>“$$”+回车</li>
 </ol>
-<p><img src="source%5Cimages%5Cimage-20191207110857291.png" alt="image-20191207110857291"></p>
+<p><img src="/images/image-20191207110857291.png" alt="image-20191207110857291"></p>
 <h3 id="2-行内数学公式"><a href="#2-行内数学公式" class="headerlink" title="2.行内数学公式"></a>2.行内数学公式</h3><p>用两个“$”将数学公式括起来”$数学公式$“。例如：$a+b$，$a+b$。</p>
 <h2 id="3-常用公式代码"><a href="#3-常用公式代码" class="headerlink" title="3.常用公式代码"></a>3.常用公式代码</h2><h3 id="常用数学公式"><a href="#常用数学公式" class="headerlink" title="常用数学公式"></a>常用数学公式</h3><table>
 <thead>

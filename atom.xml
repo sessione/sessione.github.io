@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sessione.github.io/"/>
-  <updated>2019-12-07T09:21:28.576Z</updated>
+  <updated>2019-12-07T09:27:34.955Z</updated>
   <id>https://sessione.github.io/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="https://sessione.github.io/2019/12/07/work/2019/12/1/"/>
     <id>https://sessione.github.io/2019/12/07/work/2019/12/1/</id>
     <published>2019-12-07T09:15:23.000Z</published>
-    <updated>2019-12-07T09:21:28.576Z</updated>
+    <updated>2019-12-07T09:27:34.955Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;使用Typora添加数学公式&quot;&gt;&lt;a href=&quot;#使用Typora添加数学公式&quot; class=&quot;headerlink&quot; title=&quot;使用Typora添加数学公式&quot;&gt;&lt;/a&gt;使用Typora添加数学公式&lt;/h1&gt;&lt;p&gt;参考【&lt;a
-        
-      
+      &lt;p&gt;参考【&lt;a href=&quot;https://blog.csdn.net/mingzhuo_126/article/details/82722455&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;姚明明&lt;/a&gt;】【&lt;a href=&quot;https://me.csdn.net/Ernest_YN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;X7treme&lt;/a&gt;】【&lt;a href=&quot;https://www.cnblogs.com/144823836yj/p/10263070.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;画鱼&lt;/a&gt;】&lt;/p&gt;
+&lt;h2 id=&quot;1-开启行内公式模块，默认是关闭的。&quot;&gt;&lt;a href=&quot;#1-开启行内公式模块，默认是关闭的。&quot; class=&quot;headerlink&quot; title=&quot;1.开启行内公式模块，默认是关闭的。&quot;&gt;&lt;/a&gt;1.开启行内公式模块，默认是关闭的。&lt;/h2&gt;&lt;p&gt;文件–&amp;gt;偏好设置–&amp;gt;Markdown,勾选内联公式，重启typora。&lt;/p&gt;
     
     </summary>
     
