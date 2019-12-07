@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sessione.github.io/"/>
-  <updated>2019-11-25T13:22:50.349Z</updated>
+  <updated>2019-12-07T09:21:28.576Z</updated>
   <id>https://sessione.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Typora添加数学公式</title>
+    <link href="https://sessione.github.io/2019/12/07/work/2019/12/1/"/>
+    <id>https://sessione.github.io/2019/12/07/work/2019/12/1/</id>
+    <published>2019-12-07T09:15:23.000Z</published>
+    <updated>2019-12-07T09:21:28.576Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;使用Typora添加数学公式&quot;&gt;&lt;a href=&quot;#使用Typora添加数学公式&quot; class=&quot;headerlink&quot; title=&quot;使用Typora添加数学公式&quot;&gt;&lt;/a&gt;使用Typora添加数学公式&lt;/h1&gt;&lt;p&gt;参考【&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Markdown" scheme="https://sessione.github.io/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>《基于轻量级网络的实时人脸识别算法研究》的总结</title>
