@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sessione.github.io/"/>
-  <updated>2019-12-07T09:27:34.955Z</updated>
+  <updated>2020-01-10T07:49:04.187Z</updated>
   <id>https://sessione.github.io/</id>
   
   <author>
@@ -17,16 +17,70 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo的使用</title>
+    <link href="https://sessione.github.io/2020/01/10/work/2020/01/1/"/>
+    <id>https://sessione.github.io/2020/01/10/work/2020/01/1/</id>
+    <published>2020-01-10T07:43:11.000Z</published>
+    <updated>2020-01-10T07:49:04.187Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;创建博客&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://sessione.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo</title>
+    <link href="https://sessione.github.io/2019/12/29/work/2019/12/2/"/>
+    <id>https://sessione.github.io/2019/12/29/work/2019/12/2/</id>
+    <published>2019-12-29T13:59:56.000Z</published>
+    <updated>2019-12-29T14:32:17.875Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;创建博客&quot;&gt;&lt;a href=&quot;#创建博客&quot; class=&quot;headerlink&quot; title=&quot;创建博客&quot;&gt;&lt;/a&gt;创建博客&lt;/h1&gt;&lt;p&gt;使用hexo命令行创建博客&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://sessione.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用Typora添加数学公式</title>
     <link href="https://sessione.github.io/2019/12/07/work/2019/12/1/"/>
     <id>https://sessione.github.io/2019/12/07/work/2019/12/1/</id>
     <published>2019-12-07T09:15:23.000Z</published>
-    <updated>2019-12-07T09:27:34.955Z</updated>
+    <updated>2019-12-20T02:46:20.880Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;参考【&lt;a href=&quot;https://blog.csdn.net/mingzhuo_126/article/details/82722455&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;姚明明&lt;/a&gt;】【&lt;a href=&quot;https://me.csdn.net/Ernest_YN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;X7treme&lt;/a&gt;】【&lt;a href=&quot;https://www.cnblogs.com/144823836yj/p/10263070.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;画鱼&lt;/a&gt;】&lt;/p&gt;
-&lt;h2 id=&quot;1-开启行内公式模块，默认是关闭的。&quot;&gt;&lt;a href=&quot;#1-开启行内公式模块，默认是关闭的。&quot; class=&quot;headerlink&quot; title=&quot;1.开启行内公式模块，默认是关闭的。&quot;&gt;&lt;/a&gt;1.开启行内公式模块，默认是关闭的。&lt;/h2&gt;&lt;p&gt;文件–&amp;gt;偏好设置–&amp;gt;Markdown,勾选内联公式，重启typora。&lt;/p&gt;
+&lt;h2 id=&quot;1-开启行内公式模块，默认是关闭的。&quot;&gt;&lt;a href=&quot;#1-开启行内公式模块，默认是关闭的。&quot; class=&quot;headerlink&quot; title=&quot;1.开启行内公式模块，默认是关闭的。&quot;&gt;&lt;/a&gt;1.开启行内公式模块，默认是关闭的。&lt;/h2&gt;&lt;p&gt;文件—&amp;gt;偏好设置—&amp;gt;Markdown,勾选内联公式，重启typora。&lt;/p&gt;
     
     </summary>
     

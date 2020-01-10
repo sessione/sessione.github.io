@@ -294,13 +294,13 @@
 <li>在特征图进行全局池化前，可以得知，人脸图像中心区域的感受野（Receptive Field）比边缘角落区域的感受野重要。</li>
 </ol>
 <p><img src="/images/image-20191125203746283.png" alt="image-20191125203746283"></p>
-<h3 id="3-2-改进"><a href="#3-2-改进" class="headerlink" title="3.2 改进"></a>3.2 改进</h3><h4 id="3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层-1"><a href="#3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层-1" class="headerlink" title="3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层^1"></a>3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层<a href="全局深度卷积层本质上是深度卷积层">^1</a></h4><p><img src="/images/image-20191125204231846.png" alt="image-20191125204231846"></p>
-<p>F是W * H * D 的特征图，K是W * H * D 的深度可分卷积核，公式如下：</p>
+<h3 id="3-2-改进"><a href="#3-2-改进" class="headerlink" title="3.2 改进"></a>3.2 改进</h3><h4 id="3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层1"><a href="#3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层1" class="headerlink" title="3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层1"></a>3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层<sup><a href="#fn_1" id="reffn_1">1</a></sup></h4><p><img src="/images/image-20191125204231846.png" alt="image-20191125204231846"></p>
+<p>F是W <em> H </em> D 的特征图，K是W <em> H </em> D 的深度可分卷积核，公式如下：</p>
 <p><img src="/images/image-20191125204448312.png" alt="image-20191125204448312"></p>
 <h4 id="3-2-2-引入挤压和激励结构"><a href="#3-2-2-引入挤压和激励结构" class="headerlink" title="3.2.2 引入挤压和激励结构"></a>3.2.2 引入挤压和激励结构</h4><p><img src="/images/image-20191125204636716.png" alt="image-20191125204636716"></p>
 <p>该结构包含三个部分：</p>
 <p><img src="/images/image-20191125204747876.png" alt="image-20191125204747876"></p>
-<p>挤压函数Fsq，将全局空间沿着特征通道方向压缩为一个通道信息，该通道有全局特征通道的感受野，将空间维度H * W * D 缩小为 1 * 1 * D ，ud表示第d层通道的特征图，zd表示第d层通道统计的数据。</p>
+<p>挤压函数Fsq，将全局空间沿着特征通道方向压缩为一个通道信息，该通道有全局特征通道的感受野，将空间维度H <em> W </em> D 缩小为 1 <em> 1 </em> D ，ud表示第d层通道的特征图，zd表示第d层通道统计的数据。</p>
 <p><img src="/images/image-20191125211501935.png" alt="image-20191125211501935"></p>
 <p>激励函数Fex，使用了带有Sigmoid激活的门控机制学习参数W，为特征通道生成权重s。</p>
 <p><img src="/images/image-20191125205456534.png" alt="image-20191125205456534"></p>
@@ -310,7 +310,11 @@
 <p><img src="/images/image-20191125210128252.png" alt="image-20191125210128252"></p>
 <p>Swish非线性激活函数可以提高网络准确性，但是需要大量计算。所以该文章引进了分段式线性函数（Hard_Sigmoid）代替Sigmoid函数：</p>
 <p><img src="/images/image-20191125210441293.png" alt="image-20191125210441293"></p>
-<p>可以提高模型推理速度。<br>$$<br>ReLU6 = min(max(x,0),6)<br>$$</p>
+<p>可以提高模型推理速度。</p>
+<script type="math/tex; mode=display">
+ReLU6 = min(max(x,0),6)</script><blockquote id="fn_1">
+<sup>1</sup>. 全局深度卷积层本质上是深度卷积层<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
 
     </div>
 
@@ -373,7 +377,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-背景"><span class="nav-number">1.</span> <span class="nav-text">1.背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-引言"><span class="nav-number">2.</span> <span class="nav-text">2.引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-原理与方法"><span class="nav-number">3.</span> <span class="nav-text">3.原理与方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1该文中的一些原理如下："><span class="nav-number">3.1.</span> <span class="nav-text">3.1该文中的一些原理如下：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-改进"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 改进</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层-1"><span class="nav-number">3.2.1.</span> <span class="nav-text">3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层^1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-2-引入挤压和激励结构"><span class="nav-number">3.2.2.</span> <span class="nav-text">3.2.2 引入挤压和激励结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-3-对非线性激活函数的改进"><span class="nav-number">3.2.3.</span> <span class="nav-text">3.2.3 对非线性激活函数的改进</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-背景"><span class="nav-number">1.</span> <span class="nav-text">1.背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-引言"><span class="nav-number">2.</span> <span class="nav-text">2.引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-原理与方法"><span class="nav-number">3.</span> <span class="nav-text">3.原理与方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1该文中的一些原理如下："><span class="nav-number">3.1.</span> <span class="nav-text">3.1该文中的一些原理如下：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-改进"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 改进</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-1使用全局深度卷积代替轻量级神经网络中的全局池化层1"><span class="nav-number">3.2.1.</span> <span class="nav-text">3.2.1使用全局深度卷积代替轻量级神经网络中的全局池化层1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-2-引入挤压和激励结构"><span class="nav-number">3.2.2.</span> <span class="nav-text">3.2.2 引入挤压和激励结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-3-对非线性激活函数的改进"><span class="nav-number">3.2.3.</span> <span class="nav-text">3.2.3 对非线性激活函数的改进</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -389,14 +393,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -434,7 +438,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2019</span>
+  <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
