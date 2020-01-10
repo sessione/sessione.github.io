@@ -24,18 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo</title>
-    <url>/2019/12/29/work/2019/12/2/</url>
-    <content><![CDATA[<h1 id="创建博客"><a href="#创建博客" class="headerlink" title="创建博客"></a>创建博客</h1><p>使用hexo命令行创建博客</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page --path about/me</span><br></pre></td></tr></table></figure>
-<p>创建了<code>source/_posts/about/me.md</code>这样的一个文件</p>
-<h1 id="发布博客"><a href="#发布博客" class="headerlink" title="发布博客"></a>发布博客</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用Typora添加数学公式</title>
     <url>/2019/12/07/work/2019/12/1/</url>
     <content><![CDATA[<p>参考【<a href="https://blog.csdn.net/mingzhuo_126/article/details/82722455" target="_blank" rel="noopener">姚明明</a>】【<a href="https://me.csdn.net/Ernest_YN" target="_blank" rel="noopener">X7treme</a>】【<a href="https://www.cnblogs.com/144823836yj/p/10263070.html" target="_blank" rel="noopener">画鱼</a>】</p>
