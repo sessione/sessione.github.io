@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sessione.github.io/"/>
-  <updated>2020-01-10T07:53:16.260Z</updated>
+  <updated>2020-01-10T08:13:41.644Z</updated>
   <id>https://sessione.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Conda中tensorflow-gpu虚拟环境的创建</title>
+    <link href="https://sessione.github.io/2020/01/10/work/2020/01/2/"/>
+    <id>https://sessione.github.io/2020/01/10/work/2020/01/2/</id>
+    <published>2020-01-10T07:58:42.000Z</published>
+    <updated>2020-01-10T08:13:41.644Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-切换为清华镜像源&quot;&gt;&lt;a href=&quot;#1-切换为清华镜像源&quot; class=&quot;headerlink&quot; title=&quot;1. 切换为清华镜像源&quot;&gt;&lt;/a&gt;1. 切换为清华镜像源&lt;/h2&gt;&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="conda,&quot;虚拟环境&quot;,tensorflow" scheme="https://sessione.github.io/tags/conda-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83-tensorflow/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo的使用</title>
@@ -93,21 +118,6 @@
     
     
       <category term="深度学习" scheme="https://sessione.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>task</title>
-    <link href="https://sessione.github.io/2019/11/24/work/2019/11/1/"/>
-    <id>https://sessione.github.io/2019/11/24/work/2019/11/1/</id>
-    <published>2019-11-24T08:18:44.000Z</published>
-    <updated>2019-11-24T08:18:46.100Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
     
   </entry>
   

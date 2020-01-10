@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Conda中tensorflow-gpu虚拟环境的创建</title>
+    <url>/2020/01/10/work/2020/01/2/</url>
+    <content><![CDATA[<h2 id="1-切换为清华镜像源"><a href="#1-切换为清华镜像源" class="headerlink" title="1. 切换为清华镜像源"></a>1. 切换为清华镜像源</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge </span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置搜索时显示通道地址</span></span><br><span class="line">conda config --<span class="built_in">set</span> show_channel_urls yes</span><br></pre></td></tr></table></figure>
+<h2 id="2-创建tensorflow-gpu的虚拟环境"><a href="#2-创建tensorflow-gpu的虚拟环境" class="headerlink" title="2. 创建tensorflow-gpu的虚拟环境"></a>2. 创建tensorflow-gpu的虚拟环境</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda create -n 虚拟环境的名称 tensorflow-gpu</span><br><span class="line">conda activate tf2</span><br></pre></td></tr></table></figure>
+<h2 id="3-验证是否安装成功"><a href="#3-验证是否安装成功" class="headerlink" title="3. 验证是否安装成功"></a>3. 验证是否安装成功</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line">tf.test.is_gpu_available()</span><br></pre></td></tr></table></figure>
+<h2 id="4-将镜像源切换为默认值"><a href="#4-将镜像源切换为默认值" class="headerlink" title="4. 将镜像源切换为默认值"></a>4. 将镜像源切换为默认值</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda config --remove-key channels</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>conda,&quot;虚拟环境&quot;,tensorflow</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo的使用</title>
     <url>/2020/01/10/work/2020/01/1/</url>
     <content><![CDATA[<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ol>
@@ -470,11 +482,6 @@ ReLU6 = min(max(x,0),6)</script><blockquote id="fn_1">
       <tags>
         <tag>深度学习</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>task</title>
-    <url>/2019/11/24/work/2019/11/1/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>The-first-day</title>
